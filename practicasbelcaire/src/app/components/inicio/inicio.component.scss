@@ -1,0 +1,12 @@
+.main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 200px;
+    &__seccion{
+
+    }
+}
