@@ -1,0 +1,36 @@
+@mixin textoflex($dis, $just, $align){
+    display : $dis;
+    justify-content: $just;
+    align-items: $align;
+}
+
+
+.footercompleto{
+    width: 100vw;
+    height: 7.5vh    ;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: space-around;
+    
+    &__legal{
+        width: 33.3%;
+        @include textoflex(flex,center,center );
+        &__texto{
+           
+        }
+    }
+    &__telefono{
+        width: 33.3%;
+        @include textoflex(flex,center,center );        
+        &__texto{
+           
+        }
+    }
+    &__copyright{
+        width: 33.3%;
+        @include textoflex(flex,center,center );
+        &__texto{
+          
+        }
+    }
+}
