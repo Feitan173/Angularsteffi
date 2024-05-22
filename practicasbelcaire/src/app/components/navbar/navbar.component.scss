@@ -1,14 +1,39 @@
 
-
-nav{
+.navcompleto{
     width: 100vw;
     height: 10vh;
     display: flex;
     background-color: darkkhaki;
     justify-content: space-between;
-    
-}
-nav img{
-    width: 100px;
-    height: auto;
+    &__logo{
+        width: 33.3%;
+        display: flex;
+        align-items: center;
+       
+        &__texto{
+            margin-left: 20px;
+            margin-right: 20px;
+                }
+        &__imagen{
+                width: 100px;
+        }
+    }
+    &__textocontainer{
+        width: 33.3%;
+    }
+    &__botoncontainer{
+        display: flex;
+        width: 33.3%;
+        align-items: center;
+        justify-content: flex-end;
+        &__texto{
+            margin-right: 20px;
+        }
+        &__link{
+            
+            &__imagen{
+                width: 100px;
+            }
+        }
+    }
 }
