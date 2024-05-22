@@ -8,17 +8,14 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: 'inicio',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
     path: "inicio",
     component: InicioComponent
   },
-  {
-    path: '**',
-    redirectTo: 'error'
-  },
+  
   {
     path:'login',
     component: LoginComponent
@@ -26,7 +23,11 @@ const routes: Routes = [
   {
     path:'error',
     component:ErrorComponent
-  }
+  },
+  {
+    path: '**',
+    redirectTo: 'error'
+  },
 
 ];
 
