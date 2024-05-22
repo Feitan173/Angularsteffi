@@ -5,8 +5,15 @@
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 200px;
+    gap: 350px;
+    align-items: center;
     &__seccion{
-
+        &__figura{
+            &__imagen{
+                width: 100px;
+                height: auto;
+             }   
+        }
+       
     }
 }
