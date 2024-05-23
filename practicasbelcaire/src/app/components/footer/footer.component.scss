@@ -14,7 +14,7 @@
     
     &__legal{
         width: 33.3%;
-        border: 1px solid red;
+        
         //text-align: center;
         @include textoflex(flex,center,center );
         &__texto{
@@ -23,7 +23,7 @@
     }
     &__telefono{
         width: 33.3%;
-        border: 1px solid red;
+        
         @include textoflex(flex,center,center );        
         &__texto{
            
@@ -31,7 +31,7 @@
     }
     &__copyright{
         width: 33.3%;
-        border: 1px solid red;
+        
         @include textoflex(flex,center,center );
         &__texto{
           

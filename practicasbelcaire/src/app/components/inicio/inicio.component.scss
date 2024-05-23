@@ -1,16 +1,21 @@
 .main{
-    width: 100vw;
-    height: 85vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   //align-items: center;
+   width: 100vw;
+   height: 85vh;
     &__container{
-        
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        align-self: center;
+        height: 70%;
         &__seccion{
-            
+            flex-basis: 200px;
+            align-items: center;
             &__figura{
+                       text-align: center;         
                 &__imagen{
                     width: 100px;
                     height: auto;
