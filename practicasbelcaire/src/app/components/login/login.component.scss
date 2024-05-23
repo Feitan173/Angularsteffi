@@ -72,6 +72,9 @@
                 cursor: pointer;
                 background-color: rgb(134, 236, 37);
                 transition: 0.25s ease;
+                &:hover {
+                    transform: translateY(-6px);
+                }
             }
         }
        

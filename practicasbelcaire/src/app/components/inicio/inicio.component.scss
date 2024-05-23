@@ -2,18 +2,20 @@
     width: 100vw;
     height: 85vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 350px;
     align-items: center;
-    &__seccion{
-        &__figura{
-            &__imagen{
-                width: 100px;
-                height: auto;
-             }   
+    &__container{
+        
+        &__seccion{
+            
+            &__figura{
+                &__imagen{
+                    width: 100px;
+                    height: auto;
+                }   
+            }  
         }
-       
     }
 }
