@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/error/error.component';
 import { LoginComponent } from './components/login/login.component';
+import { NominasComponent } from './components/nominas/nominas.component';
 
 const routes: Routes = [
 
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path:'error',
     component:ErrorComponent
+  },
+  {
+    path:'nomina',
+    component:NominasComponent
   },
   {
     path: '**',
