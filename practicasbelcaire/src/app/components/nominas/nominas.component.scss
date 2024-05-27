@@ -1,24 +1,28 @@
+
 .container{
     height: 85vh;
     display: flex;
     justify-content: center;
     align-items:center ;
     flex-wrap: wrap;
-    
         &__card{
             margin: 20px;
-            &__figura{
+            &__cardbody{
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
                 overflow: hidden;
                 border-radius: 8px;
-                &__imagen{
+                &__image{
                     width: 325px;
-                        
                 }
-                &__body{
-                
-
-            }
+                &__cardbuttons{
+                    margin: 10px;
+                    display:flex;
+                    justify-content: space-around; 
+                    &__button{
+                        color: red;
+                    }
+                    
+                }
             }
         }
-    }
+}
